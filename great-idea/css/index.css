@@ -167,18 +167,25 @@ nav {
 nav a {
   text-decoration: none;
   color: #b0b0b0;
+  padding: 25px;
 }
 
 header {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-div.header-right,
 div.header-left {
-  display: inline-block;
-  width: 49%;
-  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 25px;
 }
 
 div.header-left-elements {
@@ -195,8 +202,12 @@ h1 {
 }
 
 #button {
+  display: flex;
+  align-items: center;
   font-size: 15px;
   border-width: 1px;
+  width: 60%;
+  height: 30px;
   border-style: solid;
   text-decoration: none;
   color: black;
