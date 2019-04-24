@@ -281,6 +281,26 @@ section {
 
 }
 
+.facts-container {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 100px;
+}
+
+.facts-left {
+	padding-right: 50px;
+}
+
+ul {
+	list-style-type: square;
+	margin-top: 15px;
+	padding-left: 20px;
+}
+
+li {
+	margin-bottom: 15px;
+}
+
 footer {
 	font-size: 13px;
 	text-align: center;
