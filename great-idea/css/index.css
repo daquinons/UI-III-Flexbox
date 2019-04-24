@@ -300,6 +300,12 @@ li {
   margin-bottom: 15px;
 }
 
+.map-container {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 100px;
+  }
+
 footer {
   font-size: 13px;
   text-align: center;
