@@ -157,18 +157,16 @@ body {
 
 nav {
   text-align: center;
-  margin-top: 15px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 nav a {
-  padding: 30px;
   text-decoration: none;
   color: #b0b0b0;
-}
-
-nav img {
-  margin-left: 45px;
-  vertical-align: middle;
 }
 
 header {
