@@ -293,10 +293,23 @@ li {
 }
 
 .map-container {
-	display: flex;
-	justify-content: space-evenly;
-	margin-bottom: 100px;
-  }
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
 
 footer {
   font-size: 13px;
